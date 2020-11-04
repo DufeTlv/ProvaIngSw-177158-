@@ -54,7 +54,7 @@ public class MyUtilListTest {
 		//fail("Not yet implemented");
 		System.out.println("Test ordinaDecrescente "+ LocalDateTime.now() );
 		assertEquals(Arrays.asList(64,15,12,3,2),mul.ordinaDecrescente(Arrays.asList(15,3,64,2,12)));
-		assertEquals(Arrays.asList(95,46,23,6,0),mul.ordinaDecrescente(Arrays.asList(0,46,32,95,6)));
+		assertEquals(Arrays.asList(95,46,32,6,0),mul.ordinaDecrescente(Arrays.asList(0,46,32,95,6)));
 	}
 
 }
